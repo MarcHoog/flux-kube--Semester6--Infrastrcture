@@ -5,3 +5,4 @@ resources:
   - namespace.yaml
   - release.yaml
   - service-account.yaml
+  - cluster-rolebinding.yaml
