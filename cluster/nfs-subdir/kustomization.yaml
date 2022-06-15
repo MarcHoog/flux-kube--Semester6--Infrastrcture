@@ -4,5 +4,5 @@ kind: Kustomization
 resources:
   - sources
   - namespace.yaml
-  - repo.yaml
+  - provsioner.yaml
   - default.yaml
