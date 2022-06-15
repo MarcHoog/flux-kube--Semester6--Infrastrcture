@@ -2,8 +2,8 @@
 apiVersion: storage.k8s.io/v1
 kind: Storageclass
 metadata:
-  name: nfs-client
+  name: nfs-subdir-external-provisioner
   annotations:
-    Storageclass.kubernetes.io/is-default-class: "false"
+    storageclass.kubernetes.io/is-default-class: "true"
 provisioner: cluster.local/nfs-subdir-external-provisioner
   
