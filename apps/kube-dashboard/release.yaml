@@ -12,6 +12,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: kubernetes-dashboard
-        namespace: flux-system
+        namespace: kube-dashboard
   interval: 1h0m0s
   
