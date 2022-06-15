@@ -6,4 +6,3 @@ metadata:
   annotations:
     storageclass.kubernetes.io/is-default-class: "true"
 provisioner: cluster.local/nfs-subdir-external-provisioner
-  
