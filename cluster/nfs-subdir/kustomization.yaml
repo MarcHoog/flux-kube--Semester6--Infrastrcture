@@ -5,5 +5,3 @@ namespace: flux-system
 resources:
   - sources
   - namespace.yaml
-  - provsioner.yaml
-  - default.yaml
