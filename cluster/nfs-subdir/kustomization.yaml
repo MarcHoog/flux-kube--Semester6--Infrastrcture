@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - sources
   - namespace.yaml
+  - provisioner.yaml
