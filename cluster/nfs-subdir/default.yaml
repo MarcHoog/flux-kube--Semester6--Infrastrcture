@@ -1,0 +1,9 @@
+---
+apiVersion: storage.kys.io/v1
+kind: Storageclass
+metadata:
+  name: nfs-client
+  annotations:
+    Storageclass.kubernetes.io/is-default-class: "false"
+provisioner: cluster.local/nfs-subdir-external-provisioner
+  
