@@ -4,6 +4,3 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - release.yaml
-  - service-account.yaml
-  - cluster-rolebinding.yaml
-  - service-account-token.yaml
