@@ -14,7 +14,7 @@ spec:
         name: nfs-subdir-external-provisioner
         namespace: nfs-provisioner
   interval: 1h0m0s
-  values:
-    nfs:
-      server: kube-nfs
-      path: /srv/nfs4/kubernetes
+values:
+  nfs:
+    server: kube-nfs
+    path: /srv/nfs4/kubernetes
