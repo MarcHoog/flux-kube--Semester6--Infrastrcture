@@ -14,7 +14,3 @@ spec:
         name: kubernetes-dashboard
         namespace: flux-system
   interval: 1h0m0s
-  values:
-    nfs:
-      server: kube-nfs
-      path: /srv/nfs4/kubernetes
