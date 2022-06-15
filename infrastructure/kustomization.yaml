@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   - sources
   - nfs-subdir-external-provisioner
-  - kubernetes-dashboard
+ 
