@@ -14,3 +14,4 @@ spec:
         name: kubernetes-dashboard
         namespace: flux-system
   interval: 1h0m0s
+  
