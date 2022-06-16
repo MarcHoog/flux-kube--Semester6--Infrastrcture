@@ -10,6 +10,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./overlay/prod
+  path: ./patches
   prune: true
   wait: true
